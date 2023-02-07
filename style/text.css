@@ -1,0 +1,35 @@
+.white {
+  color: white;
+}
+
+.nord7 {
+  color: var(--nord7);
+}
+
+.nord8 {
+  color: var(--nord8);
+}
+
+.nord9 {
+  color: var(--nord9);
+}
+
+.nord10 {
+  color: var(--nord10);
+}
+
+.bg7 {
+  background-color: var(--nord7);
+}
+
+.bg8 {
+  background-color: var(--nord8);
+}
+
+.bg9 {
+  background-color: var(--nord9);
+}
+
+.bg10 {
+  background-color: var(--nord10);
+}
