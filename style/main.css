@@ -142,6 +142,11 @@ html, body {
 
 .device {
   margin-bottom: 2em;
+  text-align: center;
+  background-color: var(--dark);
+  border-radius: 1em;
+  padding: .1em 1em 1em 1em;
+  width: min(200px, calc(100vw - 4em));
 }
 
 .device__heading {
