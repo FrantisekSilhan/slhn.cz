@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');*/
 
 :root {
   /*--background: #181A1B;
@@ -15,7 +15,7 @@
 }
 
 html, body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Noto Sans", 'Courier New';
   font-size: 16px;
   background-color: var(--background);
   color: white;
@@ -58,6 +58,7 @@ html, body {
   margin: 0 auto;
   padding: 0 1em;
   max-width: 768px;
+  font-weight: 500;
 }
 
 .navbar__menu {
@@ -121,7 +122,7 @@ html, body {
 }
 
 .navbar__menu__item--active {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--nord9);
   text-shadow: 1px 1px 5px black;
 }
@@ -166,6 +167,7 @@ html, body {
 }
 
 b {
+  font-weight: 500;
   color: var(--nord8);
   text-shadow: 1px 1px 5px black;
 }
@@ -194,8 +196,4 @@ b {
   display: flex;
   align-items: center;
   gap: .25em;
-}
-
-.work {
-  cursor: not-allowed;
 }
