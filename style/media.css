@@ -45,4 +45,7 @@
   .navbar__menu__item {
     font-size: 1.5rem;
   }
+  .header__body {
+    margin-top: 10vh;
+  }
 }
