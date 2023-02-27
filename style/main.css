@@ -140,10 +140,12 @@ html, body {
   width: fit-content;
   padding: 1em;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
 }
 
 .device {
-  margin-bottom: 2em;
   text-align: center;
   background-color: var(--dark);
   border-radius: 1em;

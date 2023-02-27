@@ -1,8 +1,14 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 528px) {
   .devices {
-    display: flex;
-    gap: 2em;
+    grid-template-columns: repeat(2, 1fr);
   }
+  .device__laptop {
+    grid-column: span 2 / span 2;
+    justify-self: center;
+  }
+}
+
+@media only screen and (min-width: 500px) {
   .skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -47,5 +53,15 @@
   }
   .header__body {
     margin-top: 10vh;
+  }
+}
+
+@media only screen and (min-width: 792px) {
+  .devices {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .device__laptop {
+    grid-column: unset;
+    justify-self: unset;
   }
 }
