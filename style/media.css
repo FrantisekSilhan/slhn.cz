@@ -1,8 +1,4 @@
 @media only screen and (min-width: 500px) {
-  .devices {
-    display: flex;
-    gap: 2em;
-  }
   .skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -10,20 +6,18 @@
   .skill {
     margin: 0 1em;
   }
-  .skill--sql {
-    grid-column: span 2 / span 2;
-  }
 }
 
 @media only screen and (min-width: 768px) {
+  .devices {
+    display: flex;
+    gap: 2em;
+  }
   .skill {
     justify-self: center;
   }
   .skills {
     grid-template-columns: repeat(3, 1fr);
-  }
-  .skill--sql {
-    grid-column: span 3 / span 3;
   }
 }
 
